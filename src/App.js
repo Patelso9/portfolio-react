@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import './App.css';
-import Repo from './components/Repo';
+import Repo from './components/Repo/Repo';
 
 
 function App() {
@@ -23,12 +23,13 @@ function App() {
   }
 
   const filteredRepo = repo.filter(repos =>
-    repos.name.toLowerCase().includes(search.toLowerCase))
+    repos.name.includes(search))
 
 
   //---------- HTML -----------//
   return (
     <div className="profile-App">
+      <div> </div>
       <div className="repo-App">
           <div className="repo-name">
               <h1 className="repo-text">Search for a repository</h1>
@@ -43,9 +44,10 @@ function App() {
           </div>
           {filteredRepo.map(repos => {
               return <Repo
+                  key={repos.id}
                   name={repos.name}
-                  html_url={repos.html_url}
                   language={repos.language}
+                  html_url={repos.html_url}
               />
           })}  
       </div>

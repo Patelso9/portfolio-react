@@ -6,9 +6,9 @@ const Repo = ({ name, html_url, language }) => {
         <div className="Proj-container">
             <div className="proj-row">
                 <div className="proj">
-                    <h1 className="proj-name">{name}</h1>
-                    <p className="proj-language">{language}</p>
-                    <p className="proj-url">{html_url}</p>
+                    <h1>{name}</h1>
+                    <p>{language}</p>
+                    <p>{html_url}</p>
                 </div>
             </div>
         </div>
