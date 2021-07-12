@@ -2,6 +2,7 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import Repo from '../Repo/Repo';
+import './Github.css';
 
 const Github = () => {
  // ------ Github Repo Search -------//
@@ -37,6 +38,7 @@ const Github = () => {
                   onChange={handleChange}
                 />
               </form>
+          <hr/>
           </div>
           {filteredRepo.map(repos => {
               return <Repo

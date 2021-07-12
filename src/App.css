@@ -1,3 +1,37 @@
+body{
+  text-align: center;
+  background-color: rgba(161, 178, 196, 0.219);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+  color: teal;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h3{
+  color: skyblue;
+  font-size: 95%;
+  font-style: italic;
+}
+
+a{
+  color: steelblue;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+input{
+  background-color: rgba(135, 207, 235, 0.445);
+  /* font-style: italic; */
+}
+
 .App {
   text-align: center;
 }
@@ -25,7 +59,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: black;
 }
 
 @keyframes App-logo-spin {
