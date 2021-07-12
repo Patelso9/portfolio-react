@@ -3,8 +3,9 @@
     /* justify-content: flex-end; */
     justify-content: space-evenly;
     /* flex-basis: 20%; */
-    border-style: solid;
+    border-style:dotted;
+    border-color: silver;
     background-color: rgba(64, 224, 208, 0.452);
     padding: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 20px ;
 }
