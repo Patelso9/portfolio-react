@@ -2,7 +2,8 @@ import React from 'react'
 
 const About = () => {
 
-    
+    // const [git, setGit] = useState([])
+
 
     return (
         <div>
