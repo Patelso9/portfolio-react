@@ -1,4 +1,5 @@
 # Portfolio in React
+Personal portfolio created using React JS
 
 ## Description
 Portfolio reimagines using ReactJS and Restful API calls
