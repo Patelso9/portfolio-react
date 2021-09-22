@@ -7,6 +7,7 @@ import './App.css';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Github from './components/Github/Github';
+import IG from './components/IG/IG';
 import Nav from './components/Nav/Nav';
 
 
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path="/" component={About} exact/>
           <Route path="/portfolio" component={Github} />
           <Route path="/contact" component={Contact} />
+          <Route path="/insta" component={IG} />
         </Switch>
       </div>
       </BrowserRouter>

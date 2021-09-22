@@ -39,3 +39,6 @@ Run the code in your local browser with the terminal command "npm run develop"
 * Share instagram feed
 * Upgrade UI
 
+## Resources Used
+* h
+

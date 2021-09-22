@@ -13,6 +13,7 @@ const Nav = () => {
             <NavLink to="/">About Me</NavLink>
             <NavLink to="/portfolio">Portfolio</NavLink>
             <NavLink to="/contact">Contact Me</NavLink>
+            <NavLink to="/insta">Instagram</NavLink>
         </div>
 
         
