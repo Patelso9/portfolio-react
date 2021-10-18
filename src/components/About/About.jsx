@@ -13,8 +13,7 @@ const About = () => {
             <div class="about"> 
                 <img 
                     src={proPic} 
-                    alt="Sonali"
-                    style={{ width: 200, float:'left', margin:10 }}>
+                    alt="Sonali">
                 </img>
                 <p>Front end Web Developer leveraging background in packaging sciences and project management to provide a unique perspective on how end-users interact with websites and software platforms. Earned a certificate in Full Stack Web Development from Rutgers University Coding Bootcamp. Innovative problem solver who is passionate about developing applications with a focus on building collaborative applications to enhance organization. Strengths in creativity, teamwork, and building projects from concept through commercialization.</p>
             </div>

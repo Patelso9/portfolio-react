@@ -1,5 +1,5 @@
 p{
-    margin: 10px 15px 0 0;
+    margin: 10px 15px 10px 0;
     /* word-wrap: initial; */
 }
 
@@ -8,10 +8,13 @@ p{
     text-align: left;
     height: inherit;
     max-height: inherit;
+    align-items: center;
 }
 
 img{
+    margin: 10px;
     border-radius: 50%;
+    width: 30%;
 }
 
 .skills ol{

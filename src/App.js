@@ -21,7 +21,7 @@ class App extends Component {
           <Route path="/" component={About} exact/>
           <Route path="/portfolio" component={Github} />
           <Route path="/contact" component={Contact} />
-          <Route path="/insta" component={IG} />
+          {/* <Route path="/insta" component={IG} /> */}
         </Switch>
       </div>
       </BrowserRouter>
