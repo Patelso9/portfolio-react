@@ -16,6 +16,14 @@ Use this app to learn more about me and be able to dynamically search my github 
 * Express.js
 * Restful API
 
+## New Packages used
+* @emotion/styled
+* react-instagram-embed: need to delete
+
+## Resources Used
+* IG embed in Gatsby: https://www.tiagofsanchez.com/blog/2021-01-12-hack-to-embed-instagram-in-gatbsy/
+
+
 ## Problem Solved
 Allows one to easily search all online data linked to one's profile
 
@@ -39,6 +47,6 @@ Run the code in your local browser with the terminal command "npm run develop"
 * Share instagram feed
 * Upgrade UI
 
-## Resources Used
-* h
+
+
 

@@ -1,3 +1,27 @@
 p{
-    margin: 0 50px 0 50px;
+    margin: 10px 15px 0 0;
+    /* word-wrap: initial; */
 }
+
+.about{
+    display: flex;
+    text-align: left;
+    height: inherit;
+    max-height: inherit;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.skills ol{
+    text-align: left;
+    color: steelblue;
+}
+
+.skill-name{
+    display: inline-block; 
+    color: rgb(70, 158, 187);
+    font-weight: bold;
+    font-size: 110%; 
+ }
