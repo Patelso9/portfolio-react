@@ -1,34 +1,47 @@
+:root{
+  --Dark: rgba(64, 224, 208, 0.452);
+  --fade: rgba(161, 178, 196, 0);
+  --Bkgrnd: rgba(161, 178, 196, 0.219);
+  --H1: Teal;
+  --H2: Skyblue;
+  --a: steelblue;
+  --input: rgba(135, 207, 235, 0.445)
+
+
+}
+
 body{
   text-align: center;
-  background-color: rgba(161, 178, 196, 0.219);
-  font-family: Bradley Hand, cursive;
+  background-color: var(--Bkgrnd);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 h2{
-  color: teal;
+  color: var(--H1);
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 h3{
-  color: skyblue;
+  color: var(--H2);
   font-size: 95%;
   font-style: italic;
 }
 
 a{
-  color: steelblue;
+  color: var(--a);
   text-decoration: none;
-  font-size: 25px;
+  /* font-size: 140%; */
 }
 
 ul{
   list-style-type: none;
+  ;
 }
 
 input{
-  background-color: rgba(135, 207, 235, 0.445);
+  background-color: var(--input);
   /* font-style: italic; */
 }
 

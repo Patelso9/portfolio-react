@@ -11,6 +11,11 @@ p{
     align-items: center;
 }
 
+.about-detail{
+    color: var(--a);
+
+}
+
 img{
     margin: 10px;
     border-radius: 50%;
