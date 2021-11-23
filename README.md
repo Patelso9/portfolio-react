@@ -47,6 +47,7 @@ Run the code in your local browser with the terminal command "npm run develop"
 * Share instagram feed
 * Upgrade UI
 
-
+## Resources
+* https://cming0721.medium.com/instagram-feeds-with-instagram-api-part-1-create-app-and-token-4a91ee3bd154
 
 

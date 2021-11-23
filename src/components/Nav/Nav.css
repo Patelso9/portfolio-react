@@ -1,18 +1,25 @@
+:root {
+    --Dark: rgba(64, 224, 208, 0.452);
+    --Bkgrnd: rgba(161, 178, 196, 0);
+}
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    border-style:dotted;
+    border-style: faded;
     border-color: silver;
-    background-color: rgba(64, 224, 208, 0.452);
+    background-image: linear-gradient(var(--Dark), var(--Bkgrnd));
     padding: 30px;
-    margin-bottom: 20px ;
+    margin-bottom: 10px ;
 }
 
 .my-name{
     color: white;
     justify-content: left;
+    font-family: 'Comforter', cursive;
+    font-size: 50px;
 }
 
 .nav-item{

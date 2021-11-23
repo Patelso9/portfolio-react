@@ -45,7 +45,9 @@ const Github = () => {
                   key={repos.id}
                   name={repos.name}
                   language={repos.language}
+                  description={repos.description}
                   html_url={repos.html_url}
+                  deployed={repos.homepage}
               />
           })}    
         </div>
