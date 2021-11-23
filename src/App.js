@@ -27,25 +27,3 @@ class App extends Component {
   }}
 
 export default App;
-
-// --------- TRYING TO USE NAV BAR ------------//
-// return (
-//   <div className="profile-App">
-//     <div className="profile-header"> 
-//       <Nav />
-//       <h1>Sonali's Profile</h1>
-//     </div>
-    
-//     < div className="profile-about">
-//       <About />
-//     </div>
-    
-//     <div className="profile-contact">
-//       <Contact />
-//     </div>
-    
-//     <div className="repo-App">
-//       {/* <Github /> */}
-//     </div>
-// </div>
-// )

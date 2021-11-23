@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from '../Contact/Contact';
 import './About.css'
 import proPic from './Sonali.jpg';
 
@@ -41,6 +42,8 @@ const About = () => {
                     </li>
                 </ol>
             </div>
+
+            <Contact />
 
         </div>
     )
