@@ -3,12 +3,14 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     border-style: faded;
     border-color: silver;
     background-image: linear-gradient(var(--Dark), var(--fade));
     padding: 30px;
     margin-bottom: 10px ;
+    /* position: inherit; */
+    width: 100%;
 }
 
 .my-name{
@@ -20,5 +22,12 @@
 
 .nav-item{
     justify-content: space-around;
+}
 
+a{
+    font-size: 20px;
+}
+
+a:hover{
+    color: white;
 }

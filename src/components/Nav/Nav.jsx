@@ -10,8 +10,8 @@ const Nav = () => {
     return (
 
         <div className="nav-bar">
-            <h1 class="my-name">Sonali P.</h1>
-            <div class="nav-item">
+            <h1 className="my-name">Sonali P.</h1>
+            <div className="nav-item">
                 <NavLink to="/">About Me</NavLink>
                 <NavLink to="/portfolio"> | Portfolio</NavLink>
                 <NavLink to="/contact"> | Contact Me</NavLink>
