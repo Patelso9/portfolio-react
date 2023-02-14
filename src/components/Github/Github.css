@@ -2,3 +2,15 @@ p{
     font-style: italic;
     color: rgb(104, 171, 197)
 }
+
+.proj{
+    background-color: rgba(177, 173, 173, 0.255);
+    margin: 1px;
+    border-radius: 10px;
+}
+
+img{
+    width: 80%;
+    border-radius: 25px;
+    opacity: 60%;
+}
