@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Document } from 'react-pdf';
 import resume from './Resume.pdf';
 
 const Resume = () => {
@@ -6,7 +7,7 @@ const Resume = () => {
     return (
       <div>
         <h2>Resume</h2>
-        <image src={resume} alt="sonali's resume"/>
+        <Document file={resume}/>
       </div>
     )
 }
