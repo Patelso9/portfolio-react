@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { Document } from 'react-pdf';
+import React from 'react';
 import resume from './Resume.pdf';
 
 const Resume = () => {
@@ -7,7 +6,7 @@ const Resume = () => {
     return (
       <div>
         <h2>Resume</h2>
-        <Document file={resume}/>
+        <object data={resume} type="application/pdf" width="100%" height="500px"> </object>
       </div>
     )
 }
